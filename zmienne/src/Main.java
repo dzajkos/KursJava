@@ -1,3 +1,5 @@
 public class Main {
-a kto mnie tu podgląda?
+    public static void main(String[] args) {
+        System.out.println("siema");
+    }
 }
