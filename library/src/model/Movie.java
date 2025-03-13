@@ -1,3 +1,5 @@
+package model;
+
 public class Movie extends Item {
 
     private static int counter = 0;
@@ -8,10 +10,15 @@ public class Movie extends Item {
         super(title);
         this.duration = duration;
         this.director = director;
+        counter++;
     }
 
     @Override
     public String getDescription() {
         return String.format("Reżyser: %s, Tytuł: %s, Długość filmu: %d minut", director, title, duration);
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 }

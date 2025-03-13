@@ -1,3 +1,5 @@
+package model;
+
 public class Book extends Item {
 
     private static int counter = 0;
@@ -8,10 +10,15 @@ public class Book extends Item {
         super(title);
         this.author = author;
         this.pagesCunt = pagesCunt;
+        counter++;
     }
 
     @Override
     public String getDescription() {
          return String.format("Autor: %s, Tytuł: %s, Liczba stron: %d", author, title, pagesCunt);
+    }
+
+    public static int getCounter() {
+        return counter;
     }
 }
