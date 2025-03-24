@@ -4,17 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Fibonacci/Fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/KursJava.iml" filepath="$PROJECT_DIR$/KursJava.iml" />
-
-      <module fileurl="file://$PROJECT_DIR$/vehicleSystem/vehicleSystem.iml" filepath="$PROJECT_DIR$/vehicleSystem/vehicleSystem.iml" />
-
       <module fileurl="file://$PROJECT_DIR$/Zadania/Zadania.iml" filepath="$PROJECT_DIR$/Zadania/Zadania.iml" />
-
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-
       <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
-
+      <module fileurl="file://$PROJECT_DIR$/telefon/telefon.iml" filepath="$PROJECT_DIR$/telefon/telefon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicleSystem/vehicleSystem.iml" filepath="$PROJECT_DIR$/vehicleSystem/vehicleSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/zadanka/zadanka.iml" filepath="$PROJECT_DIR$/zadanka/zadanka.iml" />
-
       <module fileurl="file://$PROJECT_DIR$/zmienne/zmienne.iml" filepath="$PROJECT_DIR$/zmienne/zmienne.iml" />
     </modules>
   </component>
