@@ -1,9 +1,10 @@
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Mobile extends Phone {
 
-    protected List<String> tenLastCalls;
+    protected final List<String> tenLastCalls = new ArrayList<>();
 
     public Mobile(String comunicationInterface, Color color) {
         super(comunicationInterface, color);
